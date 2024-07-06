@@ -7,23 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03ED73D93650D94A10A4FE51 /* Pods_DevOpsPractical8Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4637F1C5CCE4D147A81973B4 /* Pods_DevOpsPractical8Tests.framework */; };
-		63197C942A6F94410020AE44 /* DictionaryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63197C932A6F94410020AE44 /* DictionaryViewModelTests.swift */; };
-		63197C9A2A6F946A0020AE44 /* DictionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634FC2FF2A6E8676008ADCB9 /* DictionaryModel.swift */; };
-		63197C9C2A6F94710020AE44 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634FC2FD2A6E863B008ADCB9 /* WebService.swift */; };
-		63197CA12A6F959F0020AE44 /* MockResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63197C9E2A6F959F0020AE44 /* MockResponse.swift */; };
-		63197CA22A6F959F0020AE44 /* MockWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63197CA02A6F959F0020AE44 /* MockWebService.swift */; };
-		63197CA42A6F97EA0020AE44 /* DictionaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634FC2F72A6E85E9008ADCB9 /* DictionaryViewModel.swift */; };
-		63197CA52A6F982B0020AE44 /* Dictionary.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 63197CA32A6F95B90020AE44 /* Dictionary.geojson */; };
-		63197CA62A6F98390020AE44 /* Dictionary.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 63197CA32A6F95B90020AE44 /* Dictionary.geojson */; };
-		634FC2E92A6E8500008ADCB9 /* DevOpsPractical8App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634FC2E82A6E8500008ADCB9 /* DevOpsPractical8App.swift */; };
-		634FC2EB2A6E8500008ADCB9 /* DictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634FC2EA2A6E8500008ADCB9 /* DictionaryView.swift */; };
-		634FC2ED2A6E8501008ADCB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634FC2EC2A6E8501008ADCB9 /* Assets.xcassets */; };
-		634FC2F02A6E8501008ADCB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634FC2EF2A6E8501008ADCB9 /* Preview Assets.xcassets */; };
-		634FC2F82A6E85E9008ADCB9 /* DictionaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634FC2F72A6E85E9008ADCB9 /* DictionaryViewModel.swift */; };
-		634FC2FE2A6E863B008ADCB9 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634FC2FD2A6E863B008ADCB9 /* WebService.swift */; };
-		634FC3002A6E8676008ADCB9 /* DictionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634FC2FF2A6E8676008ADCB9 /* DictionaryModel.swift */; };
-		DC1C7F15E5979F97F85A1354 /* Pods_DevOpsPractical8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBE6FFD060504E96ADCE444 /* Pods_DevOpsPractical8.framework */; };
+		2A3B6D392C3919C0006B45E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3B6D2A2C3919C0006B45E4 /* Preview Assets.xcassets */; };
+		2A3B6D3A2C3919C0006B45E4 /* DictionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B6D2C2C3919C0006B45E4 /* DictionaryModel.swift */; };
+		2A3B6D3B2C3919C0006B45E4 /* DictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B6D2D2C3919C0006B45E4 /* DictionaryView.swift */; };
+		2A3B6D3C2C3919C0006B45E4 /* DictionaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B6D2E2C3919C0006B45E4 /* DictionaryViewModel.swift */; };
+		2A3B6D3D2C3919C0006B45E4 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B6D302C3919C0006B45E4 /* WebService.swift */; };
+		2A3B6D3E2C3919C0006B45E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3B6D322C3919C0006B45E4 /* Assets.xcassets */; };
+		2A3B6D3F2C3919C0006B45E4 /* DevOpsPractical8App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B6D332C3919C0006B45E4 /* DevOpsPractical8App.swift */; };
+		2A3B6D402C391AE6006B45E4 /* MockWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B6D252C3919C0006B45E4 /* MockWebService.swift */; };
+		2A3B6D412C391B06006B45E4 /* MockResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B6D232C3919C0006B45E4 /* MockResponse.swift */; };
+		2A3B6D422C391B0B006B45E4 /* Dictionary.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 2A3B6D272C3919C0006B45E4 /* Dictionary.geojson */; };
+		2A3B6D432C391B10006B45E4 /* DictionaryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B6D282C3919C0006B45E4 /* DictionaryViewModelTests.swift */; };
+		C3F29F77E58793248FCB7980 /* Pods_DevOpsPractical11Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AA4EBB06ABCC62F25B701A /* Pods_DevOpsPractical11Tests.framework */; };
+		F80A433A907586E22CA73849 /* Pods_DevOpsPractical11.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20863FD90E3FE03E3FEA599D /* Pods_DevOpsPractical11.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,24 +34,28 @@
 
 /* Begin PBXFileReference section */
 		1F8C3BAAA8D41A73146547B6 /* Pods-DevOpsPractical8.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevOpsPractical8.release.xcconfig"; path = "Target Support Files/Pods-DevOpsPractical8/Pods-DevOpsPractical8.release.xcconfig"; sourceTree = "<group>"; };
+		20863FD90E3FE03E3FEA599D /* Pods_DevOpsPractical11.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevOpsPractical11.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3B6D232C3919C0006B45E4 /* MockResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockResponse.swift; sourceTree = "<group>"; };
+		2A3B6D252C3919C0006B45E4 /* MockWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockWebService.swift; sourceTree = "<group>"; };
+		2A3B6D272C3919C0006B45E4 /* Dictionary.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dictionary.geojson; sourceTree = "<group>"; };
+		2A3B6D282C3919C0006B45E4 /* DictionaryViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryViewModelTests.swift; sourceTree = "<group>"; };
+		2A3B6D2A2C3919C0006B45E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A3B6D2C2C3919C0006B45E4 /* DictionaryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryModel.swift; sourceTree = "<group>"; };
+		2A3B6D2D2C3919C0006B45E4 /* DictionaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
+		2A3B6D2E2C3919C0006B45E4 /* DictionaryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryViewModel.swift; sourceTree = "<group>"; };
+		2A3B6D302C3919C0006B45E4 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		2A3B6D322C3919C0006B45E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A3B6D332C3919C0006B45E4 /* DevOpsPractical8App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevOpsPractical8App.swift; sourceTree = "<group>"; };
 		34DD16F706C144C45B161263 /* Pods-DevOpsPractical8Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevOpsPractical8Tests.debug.xcconfig"; path = "Target Support Files/Pods-DevOpsPractical8Tests/Pods-DevOpsPractical8Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4637F1C5CCE4D147A81973B4 /* Pods_DevOpsPractical8Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevOpsPractical8Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63197C912A6F94410020AE44 /* DevOpsPractical8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevOpsPractical8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		63197C932A6F94410020AE44 /* DictionaryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewModelTests.swift; sourceTree = "<group>"; };
-		63197C9E2A6F959F0020AE44 /* MockResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockResponse.swift; sourceTree = "<group>"; };
-		63197CA02A6F959F0020AE44 /* MockWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockWebService.swift; sourceTree = "<group>"; };
-		63197CA32A6F95B90020AE44 /* Dictionary.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dictionary.geojson; sourceTree = "<group>"; };
-		634FC2E52A6E8500008ADCB9 /* DevOpsPractical8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevOpsPractical8.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		634FC2E82A6E8500008ADCB9 /* DevOpsPractical8App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevOpsPractical8App.swift; sourceTree = "<group>"; };
-		634FC2EA2A6E8500008ADCB9 /* DictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
-		634FC2EC2A6E8501008ADCB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		634FC2EF2A6E8501008ADCB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		634FC2F72A6E85E9008ADCB9 /* DictionaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewModel.swift; sourceTree = "<group>"; };
-		634FC2FD2A6E863B008ADCB9 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
-		634FC2FF2A6E8676008ADCB9 /* DictionaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryModel.swift; sourceTree = "<group>"; };
-		7EBE6FFD060504E96ADCE444 /* Pods_DevOpsPractical8.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevOpsPractical8.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBA1B2D39DC03B59C80F10C /* Pods-DevOpsPractical11Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevOpsPractical11Tests.debug.xcconfig"; path = "Target Support Files/Pods-DevOpsPractical11Tests/Pods-DevOpsPractical11Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D3CEA9ED869EC88EB5CBD74 /* Pods-DevOpsPractical11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevOpsPractical11.debug.xcconfig"; path = "Target Support Files/Pods-DevOpsPractical11/Pods-DevOpsPractical11.debug.xcconfig"; sourceTree = "<group>"; };
+		63197C912A6F94410020AE44 /* DevOpsPractical11Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevOpsPractical11Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		634FC2E52A6E8500008ADCB9 /* DevOpsPractical11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevOpsPractical11.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		770D2A7D4A65E7CCB8AC7A8F /* Pods-DevOpsPractical11.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevOpsPractical11.release.xcconfig"; path = "Target Support Files/Pods-DevOpsPractical11/Pods-DevOpsPractical11.release.xcconfig"; sourceTree = "<group>"; };
 		9F818F17B62A65E8A6BE5A92 /* Pods-DevOpsPractical8.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevOpsPractical8.debug.xcconfig"; path = "Target Support Files/Pods-DevOpsPractical8/Pods-DevOpsPractical8.debug.xcconfig"; sourceTree = "<group>"; };
 		C9DFD63A15753220CE73D8D0 /* Pods-DevOpsPractical8Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevOpsPractical8Tests.release.xcconfig"; path = "Target Support Files/Pods-DevOpsPractical8Tests/Pods-DevOpsPractical8Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D4517420C211519E505C221C /* Pods-DevOpsPractical11Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevOpsPractical11Tests.release.xcconfig"; path = "Target Support Files/Pods-DevOpsPractical11Tests/Pods-DevOpsPractical11Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F9AA4EBB06ABCC62F25B701A /* Pods_DevOpsPractical11Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevOpsPractical11Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03ED73D93650D94A10A4FE51 /* Pods_DevOpsPractical8Tests.framework in Frameworks */,
+				C3F29F77E58793248FCB7980 /* Pods_DevOpsPractical11Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1C7F15E5979F97F85A1354 /* Pods_DevOpsPractical8.framework in Frameworks */,
+				F80A433A907586E22CA73849 /* Pods_DevOpsPractical11.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,42 +85,84 @@
 				1F8C3BAAA8D41A73146547B6 /* Pods-DevOpsPractical8.release.xcconfig */,
 				34DD16F706C144C45B161263 /* Pods-DevOpsPractical8Tests.debug.xcconfig */,
 				C9DFD63A15753220CE73D8D0 /* Pods-DevOpsPractical8Tests.release.xcconfig */,
+				5D3CEA9ED869EC88EB5CBD74 /* Pods-DevOpsPractical11.debug.xcconfig */,
+				770D2A7D4A65E7CCB8AC7A8F /* Pods-DevOpsPractical11.release.xcconfig */,
+				4DBA1B2D39DC03B59C80F10C /* Pods-DevOpsPractical11Tests.debug.xcconfig */,
+				D4517420C211519E505C221C /* Pods-DevOpsPractical11Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		63197C922A6F94410020AE44 /* DevOpsPractical8Tests */ = {
+		2A3B6D242C3919C0006B45E4 /* MockResponses */ = {
 			isa = PBXGroup;
 			children = (
-				63197C932A6F94410020AE44 /* DictionaryViewModelTests.swift */,
-				63197CA32A6F95B90020AE44 /* Dictionary.geojson */,
-				63197C9D2A6F959F0020AE44 /* MockResponses */,
-				63197C9F2A6F959F0020AE44 /* MockWebService */,
-			);
-			path = DevOpsPractical8Tests;
-			sourceTree = "<group>";
-		};
-		63197C9D2A6F959F0020AE44 /* MockResponses */ = {
-			isa = PBXGroup;
-			children = (
-				63197C9E2A6F959F0020AE44 /* MockResponse.swift */,
+				2A3B6D232C3919C0006B45E4 /* MockResponse.swift */,
 			);
 			path = MockResponses;
 			sourceTree = "<group>";
 		};
-		63197C9F2A6F959F0020AE44 /* MockWebService */ = {
+		2A3B6D262C3919C0006B45E4 /* MockWebService */ = {
 			isa = PBXGroup;
 			children = (
-				63197CA02A6F959F0020AE44 /* MockWebService.swift */,
+				2A3B6D252C3919C0006B45E4 /* MockWebService.swift */,
 			);
 			path = MockWebService;
+			sourceTree = "<group>";
+		};
+		2A3B6D292C3919C0006B45E4 /* DevOpsPractical11Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2A3B6D242C3919C0006B45E4 /* MockResponses */,
+				2A3B6D262C3919C0006B45E4 /* MockWebService */,
+				2A3B6D272C3919C0006B45E4 /* Dictionary.geojson */,
+				2A3B6D282C3919C0006B45E4 /* DictionaryViewModelTests.swift */,
+			);
+			path = DevOpsPractical11Tests;
+			sourceTree = "<group>";
+		};
+		2A3B6D2B2C3919C0006B45E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A3B6D2A2C3919C0006B45E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A3B6D2F2C3919C0006B45E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A3B6D2C2C3919C0006B45E4 /* DictionaryModel.swift */,
+				2A3B6D2D2C3919C0006B45E4 /* DictionaryView.swift */,
+				2A3B6D2E2C3919C0006B45E4 /* DictionaryViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A3B6D312C3919C0006B45E4 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				2A3B6D302C3919C0006B45E4 /* WebService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		2A3B6D342C3919C0006B45E4 /* DevOpsPractical11 */ = {
+			isa = PBXGroup;
+			children = (
+				2A3B6D2B2C3919C0006B45E4 /* Preview Content */,
+				2A3B6D2F2C3919C0006B45E4 /* Views */,
+				2A3B6D312C3919C0006B45E4 /* WebService */,
+				2A3B6D322C3919C0006B45E4 /* Assets.xcassets */,
+				2A3B6D332C3919C0006B45E4 /* DevOpsPractical8App.swift */,
+			);
+			path = DevOpsPractical11;
 			sourceTree = "<group>";
 		};
 		634FC2DC2A6E8500008ADCB9 = {
 			isa = PBXGroup;
 			children = (
-				634FC2E72A6E8500008ADCB9 /* DevOpsPractical8 */,
-				63197C922A6F94410020AE44 /* DevOpsPractical8Tests */,
+				2A3B6D342C3919C0006B45E4 /* DevOpsPractical11 */,
+				2A3B6D292C3919C0006B45E4 /* DevOpsPractical11Tests */,
 				634FC2E62A6E8500008ADCB9 /* Products */,
 				015158DA713099DC7472A9DF /* Pods */,
 				BBCD0B46EE908693C97F286B /* Frameworks */,
@@ -130,55 +172,17 @@
 		634FC2E62A6E8500008ADCB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				634FC2E52A6E8500008ADCB9 /* DevOpsPractical8.app */,
-				63197C912A6F94410020AE44 /* DevOpsPractical8Tests.xctest */,
+				634FC2E52A6E8500008ADCB9 /* DevOpsPractical11.app */,
+				63197C912A6F94410020AE44 /* DevOpsPractical11Tests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		634FC2E72A6E8500008ADCB9 /* DevOpsPractical8 */ = {
-			isa = PBXGroup;
-			children = (
-				634FC2E82A6E8500008ADCB9 /* DevOpsPractical8App.swift */,
-				634FC2FC2A6E8628008ADCB9 /* WebService */,
-				634FC2F62A6E85D7008ADCB9 /* Views */,
-				634FC2EC2A6E8501008ADCB9 /* Assets.xcassets */,
-				634FC2EE2A6E8501008ADCB9 /* Preview Content */,
-			);
-			path = DevOpsPractical8;
-			sourceTree = "<group>";
-		};
-		634FC2EE2A6E8501008ADCB9 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				634FC2EF2A6E8501008ADCB9 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		634FC2F62A6E85D7008ADCB9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				634FC2FF2A6E8676008ADCB9 /* DictionaryModel.swift */,
-				634FC2EA2A6E8500008ADCB9 /* DictionaryView.swift */,
-				634FC2F72A6E85E9008ADCB9 /* DictionaryViewModel.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		634FC2FC2A6E8628008ADCB9 /* WebService */ = {
-			isa = PBXGroup;
-			children = (
-				634FC2FD2A6E863B008ADCB9 /* WebService.swift */,
-			);
-			path = WebService;
 			sourceTree = "<group>";
 		};
 		BBCD0B46EE908693C97F286B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7EBE6FFD060504E96ADCE444 /* Pods_DevOpsPractical8.framework */,
-				4637F1C5CCE4D147A81973B4 /* Pods_DevOpsPractical8Tests.framework */,
+				20863FD90E3FE03E3FEA599D /* Pods_DevOpsPractical11.framework */,
+				F9AA4EBB06ABCC62F25B701A /* Pods_DevOpsPractical11Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,9 +190,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63197C902A6F94410020AE44 /* DevOpsPractical8Tests */ = {
+		63197C902A6F94410020AE44 /* DevOpsPractical11Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63197C972A6F94410020AE44 /* Build configuration list for PBXNativeTarget "DevOpsPractical8Tests" */;
+			buildConfigurationList = 63197C972A6F94410020AE44 /* Build configuration list for PBXNativeTarget "DevOpsPractical11Tests" */;
 			buildPhases = (
 				FD5E1DBA58881469E93BA331 /* [CP] Check Pods Manifest.lock */,
 				63197C8D2A6F94410020AE44 /* Sources */,
@@ -200,14 +204,14 @@
 			dependencies = (
 				63197C962A6F94410020AE44 /* PBXTargetDependency */,
 			);
-			name = DevOpsPractical8Tests;
+			name = DevOpsPractical11Tests;
 			productName = Practical26Tests;
-			productReference = 63197C912A6F94410020AE44 /* DevOpsPractical8Tests.xctest */;
+			productReference = 63197C912A6F94410020AE44 /* DevOpsPractical11Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		634FC2E42A6E8500008ADCB9 /* DevOpsPractical8 */ = {
+		634FC2E42A6E8500008ADCB9 /* DevOpsPractical11 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 634FC2F32A6E8501008ADCB9 /* Build configuration list for PBXNativeTarget "DevOpsPractical8" */;
+			buildConfigurationList = 634FC2F32A6E8501008ADCB9 /* Build configuration list for PBXNativeTarget "DevOpsPractical11" */;
 			buildPhases = (
 				63E3C3946C561AE8D2178082 /* [CP] Check Pods Manifest.lock */,
 				634FC2E12A6E8500008ADCB9 /* Sources */,
@@ -219,9 +223,9 @@
 			);
 			dependencies = (
 			);
-			name = DevOpsPractical8;
+			name = DevOpsPractical11;
 			productName = Practical26;
-			productReference = 634FC2E52A6E8500008ADCB9 /* DevOpsPractical8.app */;
+			productReference = 634FC2E52A6E8500008ADCB9 /* DevOpsPractical11.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -243,7 +247,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 634FC2E02A6E8500008ADCB9 /* Build configuration list for PBXProject "DevOpsPractical8" */;
+			buildConfigurationList = 634FC2E02A6E8500008ADCB9 /* Build configuration list for PBXProject "DevOpsPractical11" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -256,8 +260,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				634FC2E42A6E8500008ADCB9 /* DevOpsPractical8 */,
-				63197C902A6F94410020AE44 /* DevOpsPractical8Tests */,
+				634FC2E42A6E8500008ADCB9 /* DevOpsPractical11 */,
+				63197C902A6F94410020AE44 /* DevOpsPractical11Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,7 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63197CA52A6F982B0020AE44 /* Dictionary.geojson in Resources */,
+				2A3B6D422C391B0B006B45E4 /* Dictionary.geojson in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +279,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634FC2F02A6E8501008ADCB9 /* Preview Assets.xcassets in Resources */,
-				63197CA62A6F98390020AE44 /* Dictionary.geojson in Resources */,
-				634FC2ED2A6E8501008ADCB9 /* Assets.xcassets in Resources */,
+				2A3B6D392C3919C0006B45E4 /* Preview Assets.xcassets in Resources */,
+				2A3B6D3E2C3919C0006B45E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,15 +293,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DevOpsPractical8/Pods-DevOpsPractical8-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DevOpsPractical11/Pods-DevOpsPractical11-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DevOpsPractical8/Pods-DevOpsPractical8-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DevOpsPractical11/Pods-DevOpsPractical11-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DevOpsPractical8/Pods-DevOpsPractical8-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DevOpsPractical11/Pods-DevOpsPractical11-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		63E3C3946C561AE8D2178082 /* [CP] Check Pods Manifest.lock */ = {
@@ -316,7 +319,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DevOpsPractical8-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DevOpsPractical11-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -338,7 +341,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DevOpsPractical8Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DevOpsPractical11Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -352,12 +355,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63197CA42A6F97EA0020AE44 /* DictionaryViewModel.swift in Sources */,
-				63197CA22A6F959F0020AE44 /* MockWebService.swift in Sources */,
-				63197CA12A6F959F0020AE44 /* MockResponse.swift in Sources */,
-				63197C942A6F94410020AE44 /* DictionaryViewModelTests.swift in Sources */,
-				63197C9C2A6F94710020AE44 /* WebService.swift in Sources */,
-				63197C9A2A6F946A0020AE44 /* DictionaryModel.swift in Sources */,
+				2A3B6D412C391B06006B45E4 /* MockResponse.swift in Sources */,
+				2A3B6D432C391B10006B45E4 /* DictionaryViewModelTests.swift in Sources */,
+				2A3B6D402C391AE6006B45E4 /* MockWebService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,11 +365,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634FC2F82A6E85E9008ADCB9 /* DictionaryViewModel.swift in Sources */,
-				634FC2EB2A6E8500008ADCB9 /* DictionaryView.swift in Sources */,
-				634FC2FE2A6E863B008ADCB9 /* WebService.swift in Sources */,
-				634FC2E92A6E8500008ADCB9 /* DevOpsPractical8App.swift in Sources */,
-				634FC3002A6E8676008ADCB9 /* DictionaryModel.swift in Sources */,
+				2A3B6D3C2C3919C0006B45E4 /* DictionaryViewModel.swift in Sources */,
+				2A3B6D3F2C3919C0006B45E4 /* DevOpsPractical8App.swift in Sources */,
+				2A3B6D3D2C3919C0006B45E4 /* WebService.swift in Sources */,
+				2A3B6D3A2C3919C0006B45E4 /* DictionaryModel.swift in Sources */,
+				2A3B6D3B2C3919C0006B45E4 /* DictionaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +378,7 @@
 /* Begin PBXTargetDependency section */
 		63197C962A6F94410020AE44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 634FC2E42A6E8500008ADCB9 /* DevOpsPractical8 */;
+			target = 634FC2E42A6E8500008ADCB9 /* DevOpsPractical11 */;
 			targetProxy = 63197C952A6F94410020AE44 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -386,8 +386,9 @@
 /* Begin XCBuildConfiguration section */
 		63197C982A6F94410020AE44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34DD16F706C144C45B161263 /* Pods-DevOpsPractical8Tests.debug.xcconfig */;
+			baseConfigurationReference = 4DBA1B2D39DC03B59C80F10C /* Pods-DevOpsPractical11Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -398,14 +399,15 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevOpsPractical8.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DevOpsPractical8";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevOpsPractical11.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DevOpsPractical11";
 			};
 			name = Debug;
 		};
 		63197C992A6F94410020AE44 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9DFD63A15753220CE73D8D0 /* Pods-DevOpsPractical8Tests.release.xcconfig */;
+			baseConfigurationReference = D4517420C211519E505C221C /* Pods-DevOpsPractical11Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -416,7 +418,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevOpsPractical8.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DevOpsPractical8";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevOpsPractical11.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DevOpsPractical11";
 			};
 			name = Release;
 		};
@@ -536,14 +538,14 @@
 		};
 		634FC2F42A6E8501008ADCB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F818F17B62A65E8A6BE5A92 /* Pods-DevOpsPractical8.debug.xcconfig */;
+			baseConfigurationReference = 5D3CEA9ED869EC88EB5CBD74 /* Pods-DevOpsPractical11.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DevOpsPractical8/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DevOpsPractical11/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -557,7 +559,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dk.DevOpsPractical8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dk.DevOpsPractical11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -568,14 +570,14 @@
 		};
 		634FC2F52A6E8501008ADCB9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F8C3BAAA8D41A73146547B6 /* Pods-DevOpsPractical8.release.xcconfig */;
+			baseConfigurationReference = 770D2A7D4A65E7CCB8AC7A8F /* Pods-DevOpsPractical11.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DevOpsPractical8/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DevOpsPractical11/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -589,7 +591,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dk.DevOpsPractical8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dk.DevOpsPractical11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -601,7 +603,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63197C972A6F94410020AE44 /* Build configuration list for PBXNativeTarget "DevOpsPractical8Tests" */ = {
+		63197C972A6F94410020AE44 /* Build configuration list for PBXNativeTarget "DevOpsPractical11Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63197C982A6F94410020AE44 /* Debug */,
@@ -610,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		634FC2E02A6E8500008ADCB9 /* Build configuration list for PBXProject "DevOpsPractical8" */ = {
+		634FC2E02A6E8500008ADCB9 /* Build configuration list for PBXProject "DevOpsPractical11" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				634FC2F12A6E8501008ADCB9 /* Debug */,
@@ -619,7 +621,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		634FC2F32A6E8501008ADCB9 /* Build configuration list for PBXNativeTarget "DevOpsPractical8" */ = {
+		634FC2F32A6E8501008ADCB9 /* Build configuration list for PBXNativeTarget "DevOpsPractical11" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				634FC2F42A6E8501008ADCB9 /* Debug */,
