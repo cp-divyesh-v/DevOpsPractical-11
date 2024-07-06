@@ -12,7 +12,7 @@ API - https://api.dictionaryapi.dev/api/v2/entries/en/.
 Write a Unit test with Cuckoo for ViewModel.
 
 Note - Write a Unit test with Cuckoo for ViewModel.
-- I have written Unit test case with normal only. (For this matter I have discussed with amisha to write unit test case normal)
+- I have written Unit test case with normal only.
 
 ## Getting started
 
