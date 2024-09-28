@@ -18,6 +18,7 @@
 		2A3B6D412C391B06006B45E4 /* MockResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B6D232C3919C0006B45E4 /* MockResponse.swift */; };
 		2A3B6D422C391B0B006B45E4 /* Dictionary.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 2A3B6D272C3919C0006B45E4 /* Dictionary.geojson */; };
 		2A3B6D432C391B10006B45E4 /* DictionaryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3B6D282C3919C0006B45E4 /* DictionaryViewModelTests.swift */; };
+		2AE8AF512CA7CB4700692A9B /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = 2AE8AF502CA7CB4700692A9B /* VERSION */; };
 		C3F29F77E58793248FCB7980 /* Pods_DevOpsPractical11Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AA4EBB06ABCC62F25B701A /* Pods_DevOpsPractical11Tests.framework */; };
 		F80A433A907586E22CA73849 /* Pods_DevOpsPractical11.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20863FD90E3FE03E3FEA599D /* Pods_DevOpsPractical11.framework */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		2A3B6D302C3919C0006B45E4 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		2A3B6D322C3919C0006B45E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A3B6D332C3919C0006B45E4 /* DevOpsPractical8App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevOpsPractical8App.swift; sourceTree = "<group>"; };
+		2AE8AF502CA7CB4700692A9B /* VERSION */ = {isa = PBXFileReference; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
 		34DD16F706C144C45B161263 /* Pods-DevOpsPractical8Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevOpsPractical8Tests.debug.xcconfig"; path = "Target Support Files/Pods-DevOpsPractical8Tests/Pods-DevOpsPractical8Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4DBA1B2D39DC03B59C80F10C /* Pods-DevOpsPractical11Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevOpsPractical11Tests.debug.xcconfig"; path = "Target Support Files/Pods-DevOpsPractical11Tests/Pods-DevOpsPractical11Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D3CEA9ED869EC88EB5CBD74 /* Pods-DevOpsPractical11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevOpsPractical11.debug.xcconfig"; path = "Target Support Files/Pods-DevOpsPractical11/Pods-DevOpsPractical11.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				2A3B6D312C3919C0006B45E4 /* WebService */,
 				2A3B6D322C3919C0006B45E4 /* Assets.xcassets */,
 				2A3B6D332C3919C0006B45E4 /* DevOpsPractical8App.swift */,
+				2AE8AF502CA7CB4700692A9B /* VERSION */,
 			);
 			path = DevOpsPractical11;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				634FC2E22A6E8500008ADCB9 /* Frameworks */,
 				634FC2E32A6E8500008ADCB9 /* Resources */,
 				3C717186820C9357376D30DF /* [CP] Embed Pods Frameworks */,
+				2AE8AF522CA7CBDE00692A9B /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -279,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE8AF512CA7CB4700692A9B /* VERSION in Resources */,
 				2A3B6D392C3919C0006B45E4 /* Preview Assets.xcassets in Resources */,
 				2A3B6D3E2C3919C0006B45E4 /* Assets.xcassets in Resources */,
 			);
@@ -287,6 +292,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2AE8AF522CA7CBDE00692A9B /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\" --fix DevOpsPractical11\n\"${PODS_ROOT}/SwiftLint/swiftlint\" DevOpsPractical11\n";
+		};
 		3C717186820C9357376D30DF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -546,7 +569,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DevOpsPractical11/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = S985H2T7J8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -559,7 +582,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dk.DevOpsPractical11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canopas.WinFamily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -578,7 +601,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DevOpsPractical11/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = S985H2T7J8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -591,7 +614,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dk.DevOpsPractical11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.canopas.WinFamily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;

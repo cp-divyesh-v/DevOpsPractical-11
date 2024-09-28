@@ -71,3 +71,8 @@ fastlane/test_output.DS_Store
 #Node
 node_modules/
 package-lock.json
+
+
+/Secrets.xcconfig
+
+ExportOptions.plist
